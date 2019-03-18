@@ -21,7 +21,7 @@ Each executable (MetroLogNormal, MetroIG, MetroLogStudent, MetroSichel) fits a d
 
 Typing the executable name, e.g. "MetroIG" gives a list of command line arguments.
 
-The directory "data" contains the sample abundance distributions fitted in the [article](https://www.ncbi.nlm.nih.gov/pubmed/18650928).
+The directory "Data" contains the sample abundance distributions fitted in the [article](https://www.ncbi.nlm.nih.gov/pubmed/18650928).
 
 First run the executable on a sample without MCMC sampling. This will perform a maximum likelihood fit using the Simplex algorithm. For instance for the GOS data type "./MetroIG -in GOS.sample -out GOS".
 
